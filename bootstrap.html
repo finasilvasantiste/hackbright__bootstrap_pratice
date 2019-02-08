@@ -5,15 +5,52 @@
   <title>Bootstrap Exercise</title>
 
   <!-- Load Bootstrap 4 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
   <!-- Load Font Awesome -->
 
   <!-- Load our stylesheet -->
+  <style type="text/css">
+      .row{
+        border: blue;
+        border-width: 1px;
+        border-style: solid;
+      }
+
+      .col {
+        border: red;
+        border-width: 1px;
+        border-style: solid;
+
+      }
+  </style>
 
 </head>
 
 <body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-4" >col 1</div>
+        <div class="col-4">col 2</div>
+        <div class="col-4">col 3</div>
+    </div>
+    
+    <div class="row">
+        <div class="col">Row 2 , only 1 col</div>
+    </div>
+    <div class="row">
+        <div class="col">col 1</div>
+        <div class="col">col 2</div>
+        <div class="col">col 3</div>
+    </div>
+    <div class="row">
+        <div class="col">last row, only 1 col</div>
+    </div>
+    
 
+
+
+</div>
 <!-- Code goes here. -->
 
 
