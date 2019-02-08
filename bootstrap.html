@@ -7,44 +7,81 @@
   <!-- Load Bootstrap 4 -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+
   <!-- Load Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
   <!-- Load our stylesheet -->
-  <style type="text/css">
-      .row{
-        border: blue;
-        border-width: 1px;
-        border-style: solid;
-      }
-
-      .col {
-        border: red;
-        border-width: 1px;
-        border-style: solid;
-
-      }
-  </style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-4" >col 1</div>
-        <div class="col-4">col 2</div>
-        <div class="col-4">col 3</div>
+        <div class="col" >
+        <ul class="nav">
+            Balloonicorn
+          <li class="nav-item">
+            <a class="nav-link active" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Shop</a>
+          </li>
+          
+        </ul>
+    </div>
+<!--         <div class="col-2">col 2</div> -->
+        <div class="col" >
+        <ul class="nav justify-content-end ">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Favorite Melons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Settings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Profile</a>
+          </li>
+        </ul>
+        </div>
     </div>
     
-    <div class="row">
-        <div class="col">Row 2 , only 1 col</div>
+    <div class="row ">
+
+        <div class="col-6 offset-3">
+            <div align="center">
+                <img src="https://cbsnews3.cbsistatic.com/hub/i/r/2015/02/25/9df59541-7886-4092-80c9-443efc86485d/thumbnail/1200x630/da24dc7e6ea5ee17dc446ba4914c52cc/cantaloupes.jpg" width="600px">
+            </div>
+            Row 2 , only 1 col
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dapibus nisl et sem facilisis rutrum. Curabitur facilisis placerat lacus. Cras nisl augue, pellentesque ac luctus efficitur, posuere lacinia mauris. Suspendisse at convallis lorem, eu condimentum lacus. Phasellus quis consectetur eros, non eleifend quam. Aenean at ante ac ex tempus blandit faucibus tempus purus. Vestibulum faucibus dui nulla, sit amet congue augue viverra eget. In sit amet lorem commodo, porttitor massa feugiat, commodo est. Mauris commodo nunc justo, ornare pulvinar dui ultricies in.
+
+          
+        </div>
+
     </div>
-    <div class="row">
-        <div class="col">col 1</div>
-        <div class="col">col 2</div>
-        <div class="col">col 3</div>
+    <div class="row ">
+        <div class="col text-center">
+            <i class="fas fa-ice-cream"></i>
+            Praesent ornare vehicula libero nec condimentum. Vivamus mi dolor, vestibulum eu semper eu, pretium id mauris. Duis sagittis arcu qutext-center
+        </div>
+        <div class="col text-center">
+            <i class="fas fa-pizza-slice"></i>
+            Praesent ornare vehicula libero nec condimentum. Vivamus mi dolor, vestibulum eu semper eu, pretium id mauris. Duis sagittis arcu qu
+        </div>
+        <div class="col text-center">
+            <i class="fas fa-drumstick-bite"></i>
+            Praesent ornare vehicula libero nec condimentum. Vivamus mi dolor, vestibulum eu semper eu, pretium id mauris. Duis sagittis arcu qu
+        </div>
     </div>
-    <div class="row">
-        <div class="col">last row, only 1 col</div>
+    <div class="row d-none d-lg-block d-md-block d-xl-none">
+        <div class="col">(INSERT TABLE)</div>
     </div>
     
 

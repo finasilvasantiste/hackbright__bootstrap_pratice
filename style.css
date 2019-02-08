@@ -1,0 +1,12 @@
+.row{
+  border: blue;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.col {
+  border: red;
+  border-width: 1px;
+  border-style: solid;
+
+}
